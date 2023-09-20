@@ -49,7 +49,8 @@ class Rectangle():
     # Otherwise, it returns the perimeter of the rectangle.
 
     # YOUR CODE HERE
-    
+    def perimeter(self):
+        return (self.width + self.height)*2
 
 
 def main():
